@@ -229,5 +229,10 @@ return [
         'View' => Illuminate\Support\Facades\View::class,
 
     ],
-
+    'providers' => [
+        /*
+         * Package Service Providers...
+         */
+        Maatwebsite\Excel\ExcelServiceProvider::class,
+    ]
 ];
